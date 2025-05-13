@@ -58,7 +58,7 @@ document.querySelector(".prev").onclick = () => {
 setInterval(() => {
   currentImage = (currentImage + 1) % images.length;
   showImage(currentImage);
-}, 2500);
+}, 3500);
 
 // Corações flutuando
 function createHeart() {
