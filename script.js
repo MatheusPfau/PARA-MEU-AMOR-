@@ -42,7 +42,7 @@ function showImage(index) {
   setTimeout(() => {
     imageElement.src = images[index];
     imageElement.classList.remove("fade-out");
-  }, 700);
+  }, 650);
 }
 
 document.querySelector(".next").onclick = () => {
@@ -71,4 +71,4 @@ function createHeart() {
   setTimeout(() => heart.remove(), 6000);
 }
 
-setInterval(createHeart, 500);
+setInterval(createHeart, 1000);
