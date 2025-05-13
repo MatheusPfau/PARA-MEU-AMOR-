@@ -33,7 +33,7 @@ setInterval(updateTimer, 1000);
 updateTimer();
 
 // Carrossel de imagens
-const images = ["img01.jpeg", "img02.jpeg", "img03.jpeg", "img04.jpeg", "img05.jpeg", "img06.jpeg", "img07.jpeg"];
+const images = ["img01.jpeg", "img03.jpeg", "img04.jpeg", "img05.jpeg", "img06.jpeg", "img07.jpeg"];
 let currentImage = 0;
 const imageElement = document.getElementById("carousel-image");
 
