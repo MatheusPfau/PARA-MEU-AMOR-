@@ -71,4 +71,4 @@ function createHeart() {
   setTimeout(() => heart.remove(), 6000);
 }
 
-setInterval(createHeart, 500);
+setInterval(createHeart, 400);
