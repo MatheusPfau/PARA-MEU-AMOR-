@@ -42,7 +42,7 @@ function showImage(index) {
   setTimeout(() => {
     imageElement.src = images[index];
     imageElement.classList.remove("fade-out");
-  }, 600);
+  }, 700);
 }
 
 document.querySelector(".next").onclick = () => {
@@ -58,7 +58,7 @@ document.querySelector(".prev").onclick = () => {
 setInterval(() => {
   currentImage = (currentImage + 1) % images.length;
   showImage(currentImage);
-}, 2500);
+}, 3000);
 
 // Corações flutuando
 function createHeart() {
